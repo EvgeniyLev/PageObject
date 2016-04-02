@@ -20,7 +20,10 @@ public class Tests {
         app.getSiteNavigations().openMainPage();
         app.getUserActivities().logInAs(user);
         Assert.assertTrue(app.getUserActivities().isOkLoginPage());
+<<<<<<< HEAD
         System.out.println("Hi git hub!");
+=======
+>>>>>>> origin/master
             }
 
     @Test
